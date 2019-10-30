@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="About Us Page Test Suite">
+	<listeners>
+		<listener class-name="utils.listners.AnnotationTransformer" />
+		<listener class-name="utils.listners.TestListener"/>
+	</listeners>
+	<test name="About us page tests">
+		<classes>
+			<class name="tests.AboutUsPageTests"/>
+		</classes>
+	</test>
+</suite>
